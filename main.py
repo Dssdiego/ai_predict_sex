@@ -33,10 +33,7 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 
 # Plots the Test and Predictions Chart
-sb.distplot(y_test - predictions, axlabel="{x, y}")
-py.xlabel("Colors")
-py.ylabel("Values")
-
+sb.distplot(y_test - predictions, axlabel="Test - Prediction")
 py.show()
 
 # Predicts the Sex given the Input (Change Here)
