@@ -12,9 +12,6 @@ from sklearn.linear_model import LinearRegression
 # Read the CSV File
 df = pd.read_csv('data.csv')
 
-# Deletes the Name Column (protecting the People Data)
-del df['name']
-
 # ax = sb.barplot(x="sex", y="height", data=df)
 # ax = sb.barplot(x="sex", y="weight", data=df)
 
